@@ -50,6 +50,16 @@ class RDRDataTest extends PHPUnit_Framework_TestCase
         $this->assertTrue(is_bool($this->rdrData->doesDataStoreDirectoryExist()));
     }
 
+    /**
+     * Ensure that the data store  check returns a
+     * boolean response
+     * @test
+     */
+    public function ensureThatDataFileCheckReturnsBooleanRespose()
+    {
+        $this->assertTrue(is_bool($this->rdrData->doesDataFileExist()));
+    }
+
 
     /**
      * Ensure that the number of rows in the file is returned
