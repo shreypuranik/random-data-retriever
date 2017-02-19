@@ -1,5 +1,5 @@
 # Random Data Retriever
-As much as I enjoy watching random prize draws run on command line, I fancied making a browser based UI. So this project came about. It runs using PHP, with a bit of JavaScript.
+As much as I enjoy watching random results (eg prize draws, joke of the day) run on command line, I fancied making a browser based UI. So this project came about. It runs using PHP, with a bit of JavaScript.
 
 # How to set up
 Clone this code repository to your server by running git clone https://github.com/shreypuranik/random-data-retriever.git or by downloading the ZIP file from Github
